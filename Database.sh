@@ -47,3 +47,5 @@ mysql -uroot -proot -e "GRANT ALL PRIVILEGES ON download.* TO 'download'@'localh
 
 echo "############ Flush Privileges ############"
 mysql -uroot -proot -e "FLUSH PRIVILEGES;"
+
+#sudo service mysql restart
