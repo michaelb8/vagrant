@@ -1,11 +1,6 @@
-# OMiLab Deployment via Vagrant
+# [http://omilab.org](OMiLab) Deployment via Vagrant
 
 Provision of a virtual machine with Tomcat, Mysql for the dynamic deployment.
-
-Website: [http://omilab.org](http://omilab.org)
-
-GitLab: [https://gitlab.dke.univie.ac.at](https://gitlab.dke.univie.ac.at/explore)
-
 ## Requirements
 - Vagrant: [https://vagrantup.com](https://vagrantup.com)
 - Virtualbox: [https://virtualbox.org](https://virtualbox.org)
@@ -32,14 +27,12 @@ Shell commands for box installation:
 
 - Build (*optional*)
     - Creates a workspace
-    - Checkouts the repository
+    - Checkouts the repository from [DKE GitLab](https://gitlab.dke.univie.ac.at/explore)
     - Build the binaries with maven
     - Copy the WAR-files to the tomcat\webapps
 
 ## Execution
 - Browse to the checked-out directory
 - *vagrant up* starts up the virtual machine
-- *vagrant ssh* allows the SSH Login to the virtual machine
-    - Further administration of the box in the command shell is possible
-    - Everything should be set up by the Vagrant scripts
+- *vagrant ssh* allows the SSH Login for further adaptation to the virtual machine
 - *vagrant destroy* will delete the virtual machine
