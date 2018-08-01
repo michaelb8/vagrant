@@ -1,4 +1,4 @@
-#mysql -uroot -proot
+# Create the databases and content for the OMiLab environment
 
 #psm
 echo "############ Create Database for Service PSM (db,user,grants) ############"
