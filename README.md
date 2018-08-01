@@ -11,13 +11,14 @@ GitLab: [https://gitlab.dke.univie.ac.at](https://gitlab.dke.univie.ac.at/explor
 - Virtualbox: [https://virtualbox.org](https://virtualbox.org)
 
 ## VM configuration
+- OS: ubuntu 16.04
 - Portforwards: 
     - 80 to 6000
     - 8080 to 6080
 - Logs of the tomcat will be synced in logs\
 - configs\ will be synced to the \home\vagrant\configs
 
-### Scripts
+## Provision Scripts
 Shell commands for box installation:
 - Commands
     - Updates the OS
