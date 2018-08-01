@@ -1,6 +1,6 @@
-# [http://omilab.org](OMiLab) Deployment via Vagrant
+# [OMiLab](http://omilab.org) Deployment via Vagrant
 
-Provision of a virtual machine with Tomcat, Mysql for the dynamic deployment.
+Provision of a virtual machine with OS, Tomcat and database for the dynamic deployment.
 ## Requirements
 - Vagrant: [https://vagrantup.com](https://vagrantup.com)
 - Virtualbox: [https://virtualbox.org](https://virtualbox.org)
